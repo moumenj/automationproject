@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyTestSuite" duration-ms="0" started-at="2016-05-05T11:09:10Z" finished-at="2016-05-05T11:09:10Z">
+    <groups>
+    </groups>
+    <test name="MyTests" duration-ms="0" started-at="2016-05-05T11:09:10Z" finished-at="2016-05-05T11:09:10Z">
+      <class name="automationproject.Testdemo">
+        <test-method status="FAIL" signature="failtest()[pri:0, instance:automationproject.Testdemo@2eee9593]" name="failtest" duration-ms="0" started-at="2016-05-05T13:09:10Z" finished-at="2016-05-05T13:09:10Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [y] but found [x]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [y] but found [x]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at automationproject.Testdemo.failtest(Testdemo.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.TestNG.privateMain(TestNG.java:1339)
+	at org.testng.TestNG.main(TestNG.java:1308)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtest -->
+        <test-method status="PASS" signature="passtest()[pri:0, instance:automationproject.Testdemo@2eee9593]" name="passtest" duration-ms="0" started-at="2016-05-05T13:09:10Z" finished-at="2016-05-05T13:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passtest -->
+      </class> <!-- automationproject.Testdemo -->
+    </test> <!-- MyTests -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>
