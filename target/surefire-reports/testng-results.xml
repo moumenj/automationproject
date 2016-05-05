@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="automationproject.Testdemo" duration-ms="0" started-at="2016-05-05T11:41:01Z" finished-at="2016-05-05T11:41:01Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="0" started-at="2016-05-05T11:41:01Z" finished-at="2016-05-05T11:41:01Z">
+      <class name="automationproject.Testdemo">
+        <test-method status="PASS" signature="passtest()[pri:0, instance:automationproject.Testdemo@17550481]" name="passtest" duration-ms="0" started-at="2016-05-05T13:41:01Z" finished-at="2016-05-05T13:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passtest -->
+        <test-method status="PASS" signature="failtest()[pri:0, instance:automationproject.Testdemo@17550481]" name="failtest" duration-ms="0" started-at="2016-05-05T13:41:01Z" finished-at="2016-05-05T13:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failtest -->
+      </class> <!-- automationproject.Testdemo -->
+    </test> <!-- Command line test -->
+  </suite> <!-- automationproject.Testdemo -->
+</testng-results>
